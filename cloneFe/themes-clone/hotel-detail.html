@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-gradient">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Go2Joy Logo" width="120">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ưu đãi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Danh mục khách sạn</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tải ứng dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tiếng Việt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-warning">Đăng ký</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <section>
+            <div class="container">
+                <!-- Hotel Header -->
+                <div class="hotel-header-detail mt-4">
+                  <div>
+                    <h1 class="text-hotel-color">HƯNG HƯỚNG HOTEL</h1>
+                    <p class="address-detail">321 Nguyễn Thái Bình, Phường 12, Tân Bình, Hồ Chí Minh</p>
+                  </div>
+                  <div class="rating-detail">
+                    <span class="star-detail">⭐ 4.6/5</span>
+                    <span class="review-count-detail">(383 Đánh giá)</span>
+                  </div>
+                </div>
+            
+                <!-- Hotel Image Gallery -->
+                <div class="row mt-3">
+                  <div class="col-lg-8 col-md-12">
+                    <img class="main-detail-img " src="https://s3.go2joy.vn/350w/hotel/705_1495074618719/2_705_66_1527759340719.jpg" alt="Main Hotel Image" class="img-fluid" >
+                  </div>
+                  <div class="col-lg-4 col-md-12">
+                    <span class=" idea w-100"> Gợi ý cho bạn</span>
+                    <div class="row">
+                      <div class="room-list-detail">
+                        <div class="room-item-detail">
+                          <img src="https://s3.go2joy.vn/350w/hotel/705_1495074618719/2_705_66_1527759340719.jpg" alt="Standard Room" class="img-fluid">
+                          <div class="room-details-detail">
+                            <h5>Standard Room</h5>
+                            <p>18 m² - Cửa sổ</p>
+                            <a href="#">Xem chi tiết phòng</a>
+                          </div>
+                          <div>
+                            <p class="room-price-detail">80.000₫ <br> <span class="original-price-detail">150.000₫</span></p>
+                            <button class="btn btn-book-detail">Đặt phòng</button>
+                          </div>
+                        </div>
+                  
+                        <div class="room-item-detail">
+                          <img src="https://s3.go2joy.vn/350w/hotel/705_1495074618719/2_705_66_1527759340719.jpg" alt="Standard VIP Room" class="img-fluid">
+                          <div class="room-details-detail">
+                            <h5>Standard VIP Room</h5>
+                            <p>20 m² - Cửa sổ</p>
+                            <a href="#">Xem chi tiết phòng</a>
+                          </div>
+                          <div>
+                            <p class="room-price-detail">80.000₫ <span class="original-price-detail">150.000₫</span></p>
+                            <button class="btn btn-book-detail no-wrap">Đặt phòng</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="amenities">
+                  <div style="padding: 20px; width: 800px;">
+                      <p><strong>Giới thiệu :</strong></p>
+                      <div class="amenities-text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                     </div>
+                  </div>
+                </div>
+                <!-- Room List -->
+                <h3 class="mt-4">Danh sách phòng</h3>
+                <div class="room-list-detail">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="hotel-item d-flex">
+                          <img src="https://s3.go2joy.vn/350w/hotel/2843/4479_1678758513_640fd271ebee0.webp" alt="A25 Hotel" class="img-fluid" width="500">
+                          <div class="hotel-info">
+                            <h3>A25 HOTEL – LÊ THỊ HỒNG GẤM - HCM</h3>
+                            <p>Bồn tắm</p>
+                            <p>4.9 ⭐ (361 đánh giá) - Quận 1</p>
+                            <p class="price">2 giờ đầu: <span>210.000₫</span></p>
+                            <button class="btn btn-book-detail">Đặt phòng</button>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="hotel-item d-flex">
+                          <img src="https://s3.go2joy.vn/350w/hotel/485/6130_1644395802_62037d1a441b2.jpg" alt="Hồng Phát Hotel" class="img-fluid">
+                          <div class="hotel-info">
+                            <h3>Hồng Phát Hotel</h3>
+                            <p>4.7 ⭐ (244 đánh giá) - Quận 11</p>
+                            <p class="price">1 giờ đầu: <span>92.000₫</span></p>
+                            <button class="btn btn-book-detail">Đặt phòng</button>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="hotel-item d-flex">
+                          <img src="https://s3.go2joy.vn/350w/hotel/705_1495074618719/2_705_66_1527759340719.jpg" alt="A25 LUXURY HOTEL" class="img-fluid">
+                          <div class="hotel-info">
+                            <h3>A25 HOTEL - 55 CÁCH MẠNG THÁNG TÁM</h3>
+                            <p>4.9 ⭐ (79 đánh giá) - Quận 1</p>
+                            <p class="price">2 giờ đầu: <span>210.000₫</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="hotel-item d-flex">
+                          <img src="https://s3.go2joy.vn/350w/hotel/705_1495074618719/2_705_66_1527759340719.jpg" alt="A25 LUXURY HOTEL" class="img-fluid">
+                          <div class="hotel-info">
+                            <h3>A25 HOTEL - 55 CÁCH MẠNG THÁNG TÁM</h3>
+                            <p>4.9 ⭐ (79 đánh giá) - Quận 1</p>
+                            <p class="price">2 giờ đầu: <span>210.000₫</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  
+                  <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link" href="#">...</a></li>
+                      <li class="page-item"><a class="page-link" href="#">32</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+        </section>
+        <!-- clone ở đây  -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hỗ trợ</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Hotline:</strong> 1900 638 838</li>
+                        <li>Liên hệ hỗ trợ: support@go2joy.vn</li>
+                        <li>Cơ chế giải quyết tranh chấp, khiếu nại</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Giới thiệu</h5>
+                    <ul class="list-unstyled">
+                        <li>Về chúng tôi</li>
+                        <li>Quy chế hoạt động website</li>
+                        <li>Cơ hội nghề nghiệp</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Tải ứng dụng</h5>
+                    <div class="d-flex">
+                        <img src="qr-code.png" alt="QR Code" width="80">
+                        <div class="ms-3">
+                            <img src="app-store-badge.png" alt="App Store" width="100">
+                            <img src="google-play-badge.png" alt="Google Play" width="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p>Copyright © 2023 GO2JOY Vietnam, Jsc. - Điều khoản - Bảo mật</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</html>

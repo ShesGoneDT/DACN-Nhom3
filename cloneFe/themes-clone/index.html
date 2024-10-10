@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-gradient">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Go2Joy Logo" width="120">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ưu đãi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Danh mục khách sạn</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tải ứng dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tiếng Việt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-warning">Đăng ký</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner-section">
+        <div class="container py-5 text-white d-flex align-items-center justify-content-center">
+            <div class="row align-items-center">
+                <div class="col-md-9">
+                    <h1 class="mb-4">Đặt phòng khách sạn linh hoạt - Giá tốt nhất</h1>
+                    <p class="lead">Phòng yêu ứng ý không lo cháy ví. Hoàn phí ngay nếu giá khách sạn rẻ hơn!</p>
+                </div>
+                <!-- <div class="col-md-6 text-end">
+                    <img src="promo-image.png" alt="Promo" class="img-fluid">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section py-3">
+        <div class="container bg-white shadow p-4 rounded">
+            <ul class="nav nav-pills justify-content-center mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <i class="fas fa-clock"></i> Theo giờ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-moon"></i> Qua đêm
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-calendar-day"></i> Theo ngày
+                    </a>
+                </li>
+            </ul>
+            <form class="row g-2 justify-content-center">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" class="form-control" placeholder="Bạn muốn đi đâu?" />
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-sign-in-alt"></i></span>
+                        <input type="text" class="form-control" placeholder="Nhận phòng" />
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-sign-out-alt"></i></span>
+                        <input type="text" class="form-control" placeholder="Trả phòng" />
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-warning btn-hotel" type="submit">Tìm kiếm <i
+                            class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Promotional Banners -->
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card border-0 shadow">
+                    <img src="https://s3.go2joy.vn/350w/banner/8707_1727751259_66fb645b1491d.webp" class="card-img-top"
+                        alt="Deal Banner">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow">
+                    <img src="https://s3.go2joy.vn/350w/banner/8707_1727758030_66fb7ecee300b.webp" class="card-img-top"
+                        alt="Discount Banner">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow">
+                    <img src="https://s3.go2joy.vn/350w/banner/8707_1727751436_66fb650ca4716.webp" class="card-img-top"
+                        alt="Promo Banner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-orange text-white text-center py-5">
+        <div class="container d-flex justify-content-center">
+            <div>
+                <img src="https://go2joy.vn/images/sign-up-cover.png" alt="" width="400" height="300">
+            </div>
+            <div class="benefits-section">
+                <h2>Đăng ký tài khoản và nhận các quyền lợi</h2>
+                <ul class="list-unstyled my-4">
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-green bg-light rounded-circle p-2 mr-2"></i>
+                        Nhận và sử dụng ưu đãi từ Go2Joy và đối tác
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-green bg-light rounded-circle p-2 mr-2"></i>
+                        Tích Joy Xu và tham gia chương trình tem tại khách sạn để đổi những ưu đãi hấp dẫn
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-green bg-light rounded-circle p-2 mr-2"></i>
+                        Nhận ngay coupon giảm giá 55% với người dùng mới
+                    </li>
+                </ul>
+                <button class="btn btn-light">Đăng ký & Nhận ưu đãi</button>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Hotel Categories -->
+    <section class="container my-5">
+        <div class="container my-5">
+            <div class="category-hotel">
+                <h2 class="text-center mb-4">Danh mục khách sạn</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-bed fa-3x text-orange"></i>
+                                <h5 class="card-title">Tình yêu</h5>
+                                <p class="card-text">Hơn 300 khách sạn kèm nhiều ưu đãi cho các cặp đôi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-star fa-3x text-orange"></i>
+                                <h5 class="card-title">Hot review</h5>
+                                <p class="card-text">Khám phá các khách sạn đang nhận được nhiều review gần đây nhất.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-plane fa-3x text-orange"></i>
+                                <h5 class="card-title">Du lịch</h5>
+                                <p class="card-text">Khám phá những vùng đất mới, tận hưởng và tăng chuyến đi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-heart fa-3x text-orange"></i>
+                                <h5 class="card-title">Mới mà chất</h5>
+                                <p class="card-text">Hàng trăm khách sạn mới trên Go2Joy đang chờ bạn khám phá.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-hotel">
+                <h2 class="text-center mb-4">Trải nghiệm cùng Go2Joy</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-image"
+                            style="background-image: url('https://s3.go2joy.vn/350w/hotel/9078_1723781409_66bed121993bb.webp');">
+                            <div class="card-body text-center text-white">
+                                <i class="fas fa-bolt fa-3x"></i>
+                                <h5 class="card-title">Giá sốc  Đêm nay</h5>
+                                <button class="btn btn-light">Xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-image"
+                            style="background-image: url('https://s3.go2joy.vn/350w/hotel/9078_1723781430_66bed1368bf64.webp');">
+                            <div class="card-body text-center text-white">
+                                <i class="fas fa-tags fa-3x"></i>
+                                <h5 class="card-title">Ưu đãi hấp dẫn</h5>
+                                <button class="btn btn-light">Xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Promotion Section -->
+    <section class="blog-section py-5 brg-blog d-flex justify-content-center align-items-center">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h2 class="text-white">Những điều thú vị có thể bạn chưa biết</h2>
+                    <p class="lead text-white">Khám phá những điều mới mẻ, thú vị từ các bài viết của chúng tôi.</p>
+                    <a href="#" class="btn btn-outline-dark text-white " style="border: 1px solid white;">Danh sách bài blog</a>
+                </div>
+                <!-- <div class="col-md-4">
+                    <img src="https://s3.go2joy.vn/1000w/cover_photo/33_14148447441.jpg" alt="Blog Promotion" class="img-fluid rounded">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- City Section -->
+    <section class="city-section py-5">
+        <div class="container">
+            <h3 class="mb-4">Cảm hứng cho những lần tiếp theo</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs justify-content-center">
+                        <li class="nav-item"><a href="#" class="nav-link active">TP Hồ Chí Minh</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Hà Nội</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Đà Nẵng</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Bà Rịa - Vũng Tàu</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Hải Phòng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-2">
+                    <p><strong>Quận 1</strong><br>1485 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Quận 2</strong><br>431 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Phú Nhuận</strong><br>158 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Bình Thạnh</strong><br>847 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Tân Bình</strong><br>385 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Gò Vấp</strong><br>122 khách sạn</p>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-2">
+                    <p><strong>Quận 4</strong><br>746 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Quận 3</strong><br>378 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Quận 10</strong><br>117 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Quận 7</strong><br>442 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Thủ Đức</strong><br>195 khách sạn</p>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Bình Chánh</strong><br>102 khách sạn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hỗ trợ</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Hotline:</strong> 1900 638 838</li>
+                        <li>Liên hệ hỗ trợ: support@go2joy.vn</li>
+                        <li>Cơ chế giải quyết tranh chấp, khiếu nại</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Giới thiệu</h5>
+                    <ul class="list-unstyled">
+                        <li>Về chúng tôi</li>
+                        <li>Quy chế hoạt động website</li>
+                        <li>Cơ hội nghề nghiệp</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Tải ứng dụng</h5>
+                    <div class="d-flex">
+                        <img src="qr-code.png" alt="QR Code" width="80">
+                        <div class="ms-3">
+                            <img src="app-store-badge.png" alt="App Store" width="100">
+                            <img src="google-play-badge.png" alt="Google Play" width="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p>Copyright © 2023 GO2JOY Vietnam, Jsc. - Điều khoản - Bảo mật</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</html>

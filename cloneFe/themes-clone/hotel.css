@@ -1,0 +1,274 @@
+.hotel-item {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .hotel-item img {
+    max-width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .hotel-info {
+    margin-left: 15px;
+    flex: 1;
+  }
+
+  .hotel-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .hotel-info p {
+    margin: 5px 0;
+  }
+
+  .price {
+    color: red;
+    font-weight: bold;
+  }
+
+  .pagination {
+    justify-content: center;
+  }
+  .brg-hotel{
+    background: url('https://themewagon.github.io/sona/img/hero/hero-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section-defaut{
+    padding-top:100px;
+    min-height: 90vh;
+  }
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .hotel-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hotel-info {
+      margin-left: 0;
+    }
+
+    .hotel-item img {
+      max-width: 100%;
+    }
+  }
+/* hotel-detail */
+.hotel-header-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hotel-header-detail h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .hotel-header-detail .address-detail {
+    font-size: 16px;
+  }
+
+  .rating-detail {
+    display: flex;
+    align-items: center;
+  }
+  .amenities-list {
+    column-count: 2; /* Số cột bạn muốn chia */
+    column-gap: 20px; /* Khoảng cách giữa các cột */
+    /* list-style-type: none; */
+     /* Loại bỏ bullet trước các mục li */
+   
+  }
+  
+  .hotel-info-container{
+    background: white;
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .map-container > img {
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .more-infor{
+    color: #ff8200;
+    text-decoration: 1px solid black;
+    cursor: pointer;
+    border-bottom: 1px solid #ff8200;
+    margin-left: 75%;margin-top: 10px;
+  }
+  .rating-detail .star-detail {
+    color: #ff9900;
+    font-size: 24px;
+   
+  }
+.amenities-text{
+  padding: 0 10px 25px 10px;
+}
+  .rating-detail .review-count-detail {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .room-list-detail .room-item-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .room-list-detail .room-item-detail img {
+    width: 100px;
+    border-radius: 8px;
+  }
+
+  .room-details-detail {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+
+  .room-details-detail h5 {
+    font-weight: bold;
+  }
+
+  .room-price-detail {
+    font-weight: bold;
+    color: red;
+  }
+
+  .original-price-detail {
+    text-decoration: line-through;
+    color: #999;
+  }
+
+  .btn-book-detail {
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 15px;
+  }
+
+  /* Mobile optimization */
+  @media (max-width: 768px) {
+    .hotel-header-detail {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .room-item-detail {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .room-details-detail {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+.main-detail-img{
+  width: 800px;
+  height: 350px;
+  border-radius: 13px;
+}
+.idea{
+ color: #ff8200;
+ font-size: 16px;
+ font-weight: 600;
+}
+/* end */
+.form-booking{
+  padding: 35px;
+}
+.form-booking-header{
+  width: 100%;
+  height: 43px;
+  background-color: #ff8200;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+.form-booking-content{
+  border:1px solid #ff8200;
+}
+.form-booking {
+  background-color: #ff8200;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-booking h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-booking .form-group {
+  margin-bottom: 15px;
+}
+
+.form-booking .form-group label {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-booking .form-group input,
+.form-booking .form-group textarea,
+.form-booking .form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: none;
+}
+
+.form-booking .form-group input::placeholder,
+.form-booking .form-group textarea::placeholder {
+  color: white;
+}
+
+.form-booking .btn-submit {
+  background-color: white;
+  color: #ff8200;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-booking .btn-submit:hover {
+  background-color: #f1f1f1;
+}
